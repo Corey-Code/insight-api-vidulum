@@ -1,8 +1,8 @@
 {
-  "name": "insight-api",
-  "description": "A Zcash blockchain REST and web socket API service for bitcore-node-zecmate Node.",
+  "name": "insight-api-vidulum",
+  "description": "A Vidulum blockchain REST and web socket API service for bitcore-node-vidulum Node.",
   "version": "1.1.0",
-  "repository": "git://github.com/ZECmate/insight-api.git",
+  "repository": "git://github.com/Corey-Code/insight-api-vidulum.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -50,18 +50,18 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/ZECmate/insight-api/issues"
+    "url": "https://github.com/Corey-Code/insight-api-vidulum/issues"
   },
-  "homepage": "https://github.com/ZECmate/insight-api",
+  "homepage": "https://github.com/Corey-Code/insight-api-vidulum",
   "license": "MIT",
   "keywords": [
     "insight",
     "insight api",
     "blockchain",
-    "zcash api",
+    "vidulum api",
     "blockchain api",
     "json",
-    "zcash"
+    "vidulum"
   ],
   "engines": {
     "node": ">=0.12.0"
@@ -80,8 +80,8 @@
     "lru-cache": "^4.0.1",
     "mongoose": "5.1.7",
     "morgan": "^1.7.0",
-    "bitcore-lib-zelcash": "git://github.com/TheTrunk/bitcore-lib-zelcash.git",
-    "bitcore-message-zelcash": "git://github.com/TheTrunk/bitcore-message-zelcash.git",
+    "bitcore-lib-vidulum": "git://github.com/Corey-Code/bitcore-lib-vidulum.git",
+    "bitcore-message-vidulum": "git://github.com/Corey-Code/bitcore-message-vidulum.git",
     "request": "^2.83.0"
   },
   "peerDependencies": {},
