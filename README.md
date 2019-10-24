@@ -525,9 +525,9 @@ Sample output:
   price: "0.0294763"
 }
 ```
-### `zcash` room: 
+### `vidulum` room: 
 
-`zcash/tx`: Returns a transformed tx as a json element detailing the transaction
+`vidulum/tx`: Returns a transformed tx as a json element detailing the transaction
 Sample output:
 ```
 {
@@ -547,7 +547,7 @@ isRBF: true
 }
 ```
 
-`zcash/block`: Returns a transformed block as a json element detailing the block
+`vidulum/block`: Returns a transformed block as a json element detailing the block
 Sample output:
 ```
 {
